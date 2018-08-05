@@ -9,6 +9,7 @@ namespace Scheduler.API.ViewModels.Mappings
     {
         protected override void Configure()
         {
+        Mapper.CreateMap<ContactViewModel, Contact>();
 
             Mapper.CreateMap<ContactViewModel, Contact>();
         }
