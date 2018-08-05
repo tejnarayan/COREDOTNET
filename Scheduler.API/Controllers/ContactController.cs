@@ -11,6 +11,7 @@ using Scheduler.Model;
 
 namespace Sample.API.Controllers
 {
+[Route("api/[controller]")]
     public class ContactController : Controller
     {
         private IContactRepository _contactRepository;
